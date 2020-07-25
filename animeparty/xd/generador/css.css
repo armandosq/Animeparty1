@@ -1,0 +1,359 @@
+* {
+	margin: 0;
+	color: #454545;
+	font-family: 'open sans', sans-serif;
+	outline: none!important;
+	text-decoration: none!important;
+}
+.card-view {
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.47);
+    border-style: dashed;
+    background-color: whitesmoke;
+}
+button.brs {
+    border: 0;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    background-color: #ff2000;
+    color: white;
+    padding-bottom: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+button.brs:hover {
+    opacity: 0.9;
+}
+.card-view>h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+iframe.player {
+    width: 720px;
+    height: 405px;
+    max-width: 100%;
+}
+h1.asas {
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+textarea.distext {
+    padding: 10px;
+    width: 720px;
+    max-width: 100%;
+    border: 0;
+    resize: none;
+    box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.29);
+    font-weight: 600;
+    font-size: 14px;
+}
+.form-login {
+    width: 25%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 13px;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-radius: 4px;
+    min-width: 336px;
+}
+
+body {
+    background-color: #fdfdfd;
+}
+
+.form-head>h1 {
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.form-head>h1>strong {
+    font-weight: 700;
+}
+
+.form-body>form {
+    margin: 0;
+}
+
+input.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    color: #555;
+}
+
+input.form-control:focus {
+    border: 1px solid rgba(37, 148, 236, 0.7);
+}
+
+input[type="submit"] {
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border: 0;
+    padding-bottom: 7px;
+    background-color: #2196F3;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.8;
+    transition:;
+}
+
+input[type="submit"]:hover {
+    opacity: 1;
+    background-color: #1976D2;
+}
+.site {
+    display: flex;
+}
+
+.side-nav {
+    width: 20%;
+    min-width: 272px;
+    max-width: 272px;
+    min-height: 900px;
+    background-color: #009196;
+}
+
+.content {
+    width: 100%;
+}
+
+.side-btn {
+    width: 100%;
+    margin: auto;
+    padding: 9px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.21);
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.side-btn:hover {
+    opacity: 1;
+}
+
+.side-btn.ss {
+    background-color: rgba(0, 0, 0, 0.43);
+    opacity: 1;
+    border-radius: 0;
+    margin-top: 10px;
+}
+.itens {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p.erro {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(227, 0, 14, 0.68);
+    margin-bottom: 17px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+.painel-logo {
+    margin-bottom: 19px;
+    background-color: rgba(0, 0, 0, 0.24);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.nav-item {
+    padding: 16px;
+    padding-right: 20px;
+    background-color: #009196;
+}
+
+.nav-item>p {
+    color: white;
+}
+
+.nav-item>p>strong {
+    color: white;
+}
+
+button.logout {
+    border: 0;
+    background-color: #FFC107;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 45px;
+    cursor: pointer;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.container {
+    padding: 12px;
+}
+button.logout:hover {
+    opacity: 1;
+}
+h1.logo {
+    color: white;
+    margin: 0;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+h1.logo>strong {
+    color: white;
+    font-weight: 600;
+}
+button.iten-infu {
+    width: 25%;
+    padding: 0;
+    border: 2px solid rgba(0, 0, 0, 0.24);
+    background-color: #2ecc71;
+    border-radius: 4px;
+}
+
+h1.text-head {
+    padding: 6px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.22);
+    color: white;
+    font-size: 16px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.ps {
+	margin-bottom: 20px;
+}
+.span-nubs {
+    font-size: 27px;
+    color: white;
+    font-weight: 500;
+}
+
+input[type="file"] {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="file"]:hover {
+    opacity: 1;
+}
+
+table {
+    width: 100%;
+}
+
+
+td {
+    padding: 7px;
+    background-color: rgba(207, 207, 207, 0.14);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+tr.sss {
+    opacity: 0.8;
+}
+button.fun {
+    border-color: #009196;
+    background-color: #009196;
+    border-style: solid;
+    color: white;
+    border-radius: 3px;
+    width: 100%;
+    padding: 3px;
+    cursor: pointer;
+}
+.plays {
+    max-height: 500px;
+    overflow: auto;
+    padding: 10px;
+    box-shadow: inset -7px -7px 20px 0px rgba(0, 0, 0, 0.45);
+}
+tr.sss:hover {
+    opacity: 1;
+}
+tr.heads>td {
+    background-color: whitesmoke;
+    border: 1px solid #cfcfcf;
+    text-align: left;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+h1.head-txt {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: whitesmoke;
+    border-left: 3px solid #009196;
+    color: rgba(51, 51, 51, 0.92);
+}
+
+form.itemss {
+    width: 60%;
+    margin: auto;
+}
+p.notify {
+    position: fixed;
+    right: 0;
+    margin: 15px;
+    z-index: 99;
+    background-color: rgba(51, 51, 51, 0.99);
+    color: rgba(255, 255, 255, 0.79);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+}
+
+button.close-i {
+    float: none;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    padding-bottom: 2px;
+    background-color: rgba(0, 145, 150, 0.33);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.80;
+}
+
+button.close-i:hover {
+    opacity: 1;
+}
